@@ -145,12 +145,10 @@ This helps configure softwares to run in the background and keep running automat
 ## DNS
 A **DNS** is used to resolve the hostname of an address into the server.
 
-## Record Types 
-A   -----------Storing as IP to hostname 
-
-AAAA ----------------------Storing as IPv6 to hostname 
-
-CNAME -----------------mapping one name to another
+**Record Types** 
+- A   -----------Storing as IP to hostname 
+- AAAA ----------------------Storing as IPv6 to hostname 
+- CNAME -----------------mapping one name to another
 
 ```mermaid
 graph LR
@@ -170,3 +168,119 @@ E ----> H(maps)
     nslookup www.google.com
     dig www.google.com
 
+
+#  Application Basics
+
+## Types of Programming Language
+
+**Complied Language**: They are first developed, complied and executed. eg. Java, C, C++
+**Interpreted Language**: They first developed and executed. eg. Python, NodeJS, Ruby
+
+## Complied Language
+
+**Develop Source Code**
+
+    public class MyClass {
+	    public static void main(String[] args) {
+		    System.out.println("Hello World");
+        }
+    }
+
+**Complie**
+
+    javac MyClass.java
+
+**Run**
+
+    java MyClass
+
+## Interpreted Language
+
+**Develop Source Code**
+**Run**
+
+## Java
+This is a free, open source programming language. 
+Java Development Kit (JDK): This is a set of tool that will help develop, build and run java applications on a system.
+
+**Develop**
+Jdb - Debug
+Javadoc - Document                
+**Build**
+Jarc - Compile
+Jar - Archive code into a single jar file
+**Run**
+JRE - Java runtime environment
+Javacli - command line
+
+### Build Java Tools
+Build tools help automate the build steps such as; complie. doc, creating deployment jar file.
+**Maven**
+**Gradle**
+**ANT**
+### some java commands
+
+    Java --version
+    javadoc –d doc MyClass.java
+    javac MyClass.java
+    jar cf MyClass.jar ..
+    javadoc MyClass.java
+
+## NodeJS
+
+It took javascript out of the web browsers into the serverside. This is a serer into the serverside javaside environment that can be used to develop applications such as webservers using Javascript.
+
+- NodeJs can handle a large number if connections which makes it a cross platform compartible
+
+**NPM**: Allows developers to develop new reusable pacakges or modules and share then on the public.
+
+### some commands for NodeJS
+
+    yum install nodejs
+    node -v
+    node add.js
+    npm -v
+    npm search file
+    npm install file
+    node -e "console.log(module.paths)"
+    npm install file -g
+
+**Built-In Modules**: This are the modules installed automatically at runtime.
+- fs - To handle filesystem
+- http - To host an HTTP server
+- os - To work with the Operating System
+- events - To handle events
+- tls - To implement TLS and SSL
+- url - To Parse URL Strings
+
+**External Modules**
+- express - Fast, unopinionated, minimalist web
+- framework
+- react - To create user interfaces
+- debug - To debug applications
+- async - To work with asynchronous JS
+- lodash - To work with arrays, objects, strings etc
+
+### Built-In Modules
+
+    ls /usr/lib/node_modules/npm/node_modules/
+### External Modules
+
+    ls /usr/lib/node_modules/
+
+## Python
+ ### some python commands
+ 
+
+    yum install python2
+     yum install python36
+     python3 -V
+     python2 main.py
+     pip3 -V
+     pip install flask
+     pip show flask
+     python2 -c "import sys; print(sys.path)"
+     pip install flask --upgrade
+     pip install –r requirements.txt
+     easy_install install app
+     pip install app.whl
