@@ -146,9 +146,9 @@ This helps configure softwares to run in the background and keep running automat
 A **DNS** is used to resolve the hostname of an address into the server.
 
 > **Record Types** 
-> A   -----------Storing as IP to hostname 
-> AAAA ----------------------Storing as IPv6 to hostname 
-> CNAME -----------------mapping one name to another
+A   -----------Storing as IP to hostname 
+AAAA ----------------------Storing as IPv6 to hostname 
+CNAME -----------------mapping one name to another
 
 ```mermaid
 graph LR
