@@ -1,11 +1,11 @@
 #  Docker Commands
 
-## start a container
+## Start a container
     docker run nginx
-## listcontainers
+## List containers
     docker ps (running)
     docker ps -a (all)
-## stop/remove a container
+## Stop/Remove a container
     docker stop silly_sammet 
     docker rm silly_sammet
 ## List images
