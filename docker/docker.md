@@ -40,8 +40,8 @@
     docker run -d -p 127.0.0.1:8080:8080 jenkins/jenkins
 Use forward porting on VScode to forward the port to your browser
 ## Persisting data on a Container
-**create a directory in your local env and use the docker command to map**
     mkdir jenkins-data
     docker run -d -p 127.0.0.1:8080:8080 -v /root/jenkins-data:/var/jenkins_home -u root jenkins/jenkins
+**create a directory in your local env and use the docker command to map**
 
 
