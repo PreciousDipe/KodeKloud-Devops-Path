@@ -25,8 +25,9 @@
     docker run  redis:4.0
 ## RUN  - STDIN
     docker run  –i kodekloud/simple-prompt-docker (interactive mode)
-> Mumshad
+- Mumshad
 Hello and Welcome Mumshad! together
+
     docker run  –it kodekloud/simple-prompt-docker (interactive and terminal mode)
 ## Run –  PORT mapping
     docker run  –p 80:5000  kodekloud/simple-webapp
